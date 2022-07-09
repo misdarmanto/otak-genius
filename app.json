@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "MathJamet",
-    "slug": "MathJamet",
+    "name": "Otak Genius",
+    "slug": "OtakGenius",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#A172FF"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,10 +20,15 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode" : 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#A172FF"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-8095237298596091~4581576982"
+      },
+      "package": "com.misdar.OtakGenius"
     },
     "web": {
       "favicon": "./assets/favicon.png"
